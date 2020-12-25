@@ -1,0 +1,92 @@
+.body1{
+	background-image: url("image/fond2.jpg"); 
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+}
+
+.body2{
+	background-image: url("image/fond11.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
+.body3{
+	background-image: url("image/fond6.jpg"); 
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+}
+
+.imageflottante
+{
+	float: left;
+}
+.dessous{
+	clear: both;
+}
+
+h1{
+	font-family: "doniP8", Arial, serif;
+	font-size: 2em;
+	/*text-align: justify;*/
+	color: blue;
+	font-weight: bolder;
+}
+.signature{
+	font-family: "doniP12", Arial, serif;
+
+}
+.p1{
+	font-size: 2em;
+	text-align: left;
+}
+.p2{
+	font-size: 1.4em;
+	border: 2px red solid;
+	box-shadow: 6px 6px 6px black;
+
+}
+.p3{
+	color: #008B00;
+}
+.p4{
+	font-size: 1.4em;
+	border: 2px red double;
+	box-shadow: 6px 6px 6px black;
+}
+.liste{
+	font-size: 1.4em;
+}
+
+span{
+	text-decoration: underline;
+	font-weight: bolder;
+	color: #104E8B;
+
+
+}
+
+h2{
+	color: blue;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+a/*Liens par defaut (non survoles)*/
+{
+	text-decoration: none;
+	color:red;
+	font-style: italic;
+}
+
+a:hover /*Apparence au survol des liens */
+{
+	text-decoration: underline;
+	color: green;
+}
+
+a:visited
+{
+	color: blue;
+}
